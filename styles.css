@@ -32,7 +32,8 @@ nav ul {
 #main-icons{
     display: flex;
     justify-content: center;
-    align-items: center;;
+    align-items: center;
+    padding-top: 0.781vw; /* Adjusted padding using vw units */
 }
 
 #left-side {
@@ -41,7 +42,8 @@ nav ul {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding: 20px;
+    padding: 2vw;
+    
 }
 
 #right-side {
@@ -53,7 +55,7 @@ nav ul {
 }
 
 #right-side img {
-    width: 36.328vw; /* (930px / 2560px) * 100 */
+    width: 35vw; /* (930px / 2560px) * 100 */
     max-width: 930px; /* Maximum width for larger screens */
     height: auto;
     border-radius: 6.25vw; /* (100px / 1600px) * 100 */
@@ -90,6 +92,7 @@ body {
 #logo {
     font-size: 2.344vw; /* Adjusted font size using vw units (approximately 60px on a 2560px wide screen) */
     margin-top: 1vw; /* Adjusted margin using vw units */
+    margin-bottom: -2.5vw;
 }
 
 #logo h1 {
@@ -120,7 +123,7 @@ nav ul li a:hover {
     margin-left: 2.539vw; /* Adjusted margin using vw units */
     width: 33vw; /* Adjusted width using vw units */
     text-align: center;
-    margin-top: 1.25vw; /* Adjusted margin using vw units */
+    margin-top: 1vw; /* Adjusted margin using vw units */
     color: rgb(177, 2, 2);
 }
 
@@ -161,4 +164,12 @@ a:hover {
 #href-coloring{
     color: peachpuff
 }
-
+#href-against-peach{
+    color: white;
+}
+#red-text1{
+    color:rgb(253, 73, 73)
+}
+#white-text{
+    color: rgba(243, 243, 255, 0.886);
+}
