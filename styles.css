@@ -34,6 +34,7 @@ nav ul {
     justify-content: center;
     align-items: center;
     padding-top: 0.781vw; /* Adjusted padding using vw units */
+    margin-bottom: -2vw;
 }
 
 #left-side {
@@ -92,11 +93,11 @@ body {
 #logo {
     font-size: 2.344vw; /* Adjusted font size using vw units (approximately 60px on a 2560px wide screen) */
     margin-top: 1vw; /* Adjusted margin using vw units */
-    margin-bottom: -2.5vw;
+    margin-bottom: -2vw;
 }
 
 #logo h1 {
-    margin: 0;
+    margin-top: 0vw;
     padding: 0;
     font-size: 2.344vw; /* Adjusted font size using vw units */
     white-space: nowrap;
@@ -112,7 +113,7 @@ nav ul li a:hover {
 
 .red-text {
     color: rgb(177, 2, 2);
-    font-size: 3.906vw; /* Adjusted font size using vw units */
+    font-size: 4.5vw; /* Adjusted font size using vw units */
     margin-left: 2.539vw; /* Adjusted margin using vw units */
     margin-bottom: 0;
 }
@@ -123,7 +124,7 @@ nav ul li a:hover {
     margin-left: 2.539vw; /* Adjusted margin using vw units */
     width: 33vw; /* Adjusted width using vw units */
     text-align: center;
-    margin-top: 1vw; /* Adjusted margin using vw units */
+    margin-top: 4vw; /* Adjusted margin using vw units */
     color: rgb(177, 2, 2);
 }
 
