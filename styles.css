@@ -49,29 +49,32 @@ nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 2vw;
 }
 
 #right-side img {
-    width: 930px;
-    height: 620px;
-    border-radius: 100px;
-    margin-top: 50px;
-    margin-left: 50px;
-    margin-right: 65px; 
-    margin-bottom: 0px;
-    box-shadow: 0px 0px 10px 0px #000000;
+    width: 36.328vw; /* (930px / 2560px) * 100 */
+    max-width: 930px; /* Maximum width for larger screens */
+    height: auto;
+    border-radius: 6.25vw; /* (100px / 1600px) * 100 */
+    margin-top: 3.125vw; /* (50px / 1600px) * 100 */
+    margin-left: 1.953vw; /* (50px / 2560px) * 100 */
+    margin-right: 2.539vw; /* (65px / 2560px) * 100 */
+    margin-bottom: 0;
+    box-shadow: 0px 0px 0.391vw 0px rgba(0, 0, 0, 0.4); /* (10px / 2560px) * 100 */
 }
+
 
 nav ul li a {
     color: #6E260E;
     text-decoration: none;
-    padding: 20px 20px;
+    padding: 2vw 2vw; /* Adjusted padding using vw units */
     transition: background 0.3s;
-    font-size: 50px;
+    font-size: 2.344vw; /* Adjusted font size using vw units (approximately 60px on a 2560px wide screen) */
     font-weight: bold;
 }
-nav ul li a:visited{
+
+nav ul li a:visited {
     color: #6E260E;
 }
 
@@ -79,25 +82,25 @@ body {
     display: flex;
     flex-direction: column;
     background: #FFE5B4;
-    color: #fff;
-    margin: 0; 
-    height: 100vh; 
+    color: #000; /* Changed text color to black for better contrast */
+    margin: 0;
+    height: 100vh;
 }
 
 #logo {
-    font-size: 50px;
-    margin-top: 10px;
+    font-size: 2.344vw; /* Adjusted font size using vw units (approximately 60px on a 2560px wide screen) */
+    margin-top: 1vw; /* Adjusted margin using vw units */
 }
 
 #logo h1 {
     margin: 0;
     padding: 0;
-    font-size: 50px;
+    font-size: 2.344vw; /* Adjusted font size using vw units */
     white-space: nowrap;
 }
 
-.i{
-    margin-left: 50px;
+.i {
+    margin-left: 1.953vw; /* Adjusted margin using vw units */
 }
 
 nav ul li a:hover {
@@ -106,39 +109,39 @@ nav ul li a:hover {
 
 .red-text {
     color: rgb(177, 2, 2);
-    font-size: 5rem;
-    margin-left: 65px;
-    margin-bottom: 0px;
+    font-size: 3.906vw; /* Adjusted font size using vw units */
+    margin-left: 2.539vw; /* Adjusted margin using vw units */
+    margin-bottom: 0;
 }
 
-#main-text{
-    margin-top: 80px;
-    font-size: 3rem;
-    margin-left: 65px;
-    width: 800px;
-    display: flex;
+#main-text {
+    margin-top: 4.688vw; /* Adjusted margin using vw units */
+    font-size: 2.2vw; /* Adjusted font size using vw units */
+    margin-left: 2.539vw; /* Adjusted margin using vw units */
+    width: 33vw; /* Adjusted width using vw units */
     text-align: center;
-    margin-top: 20px;
+    margin-top: 1.25vw; /* Adjusted margin using vw units */
     color: rgb(177, 2, 2);
 }
 
-.footer-content{
+.footer-content {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #6E260E;
     color: white;
-    height: 50px;
-    margin-top: 30px;
+    height: 1.953vw; /* Adjusted height using vw units */
+    margin-top: 1.172vw; /* Adjusted margin using vw units */
 }
 
 a {
-    color: inherit; 
-    text-decoration: none; 
+    color: inherit;
+    text-decoration:none;
+    text-decoration-color: darkorchid;
 }
 
 a:visited {
-    color: inherit; 
+    color: inherit;
 }
 
 a:hover {
@@ -148,11 +151,14 @@ a:hover {
 #footer {
     background-color: #6E260E;
     color: white;
-    height: 80px; /* Set height of the footer */
+    height: 3.125vw; /* Adjusted height using vw units */
     display: flex;
-    justify-content: center;    
+    justify-content: center;
     align-items: center;
     margin-top: auto; /* Push footer to the bottom */
-    padding-bottom: 15px;;
+    padding-bottom: 0.586vw; /* Adjusted padding using vw units */
+}
+#href-coloring{
+    color: peachpuff
 }
 
