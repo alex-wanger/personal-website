@@ -34,7 +34,7 @@ nav ul {
     justify-content: center;
     align-items: center;
     padding-top: 0.781vw; /* Adjusted padding using vw units */
-    margin-bottom: -2vw;
+    margin-top: 2.5vw;
 }
 
 #left-side {
@@ -53,14 +53,15 @@ nav ul {
     justify-content: center;
     align-items: center;
     padding: 2vw;
+    flex-direction: column;
+    margin-top: -6vw;
 }
 
-#right-side img {
-    width: 35vw; /* (930px / 2560px) * 100 */
+#right-side #stuypulse{
+    width: 50vw; /* (930px / 2560px) * 100 */
     max-width: 930px; /* Maximum width for larger screens */
-    height: auto;
+    height: 8vw;
     border-radius: 6.25vw; /* (100px / 1600px) * 100 */
-    margin-top: 3.125vw; /* (50px / 1600px) * 100 */
     margin-left: 1.953vw; /* (50px / 2560px) * 100 */
     margin-right: 2.539vw; /* (65px / 2560px) * 100 */
     margin-bottom: 0;
@@ -93,14 +94,32 @@ body {
 #logo {
     font-size: 2.344vw; /* Adjusted font size using vw units (approximately 60px on a 2560px wide screen) */
     margin-top: 1vw; /* Adjusted margin using vw units */
-    margin-bottom: -2vw;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 3vw;
+    margin-bottom: -6vw; /* Adjusted margin using vw units */
 }
 
-#logo h1 {
-    margin-top: 0vw;
-    padding: 0;
-    font-size: 2.344vw; /* Adjusted font size using vw units */
-    white-space: nowrap;
+#logo #main-icons {
+    margin-left: 1vw; /* Adjusted margin for spacing between icons and text */
+}
+
+#name {
+    display: flex;
+    flex-direction: column; /* Stack the elements vertically */
+}
+
+#name h2 {
+    font-size: 10rem;
+    margin: 0;
+    color: #6E260E;
+    font-weight: bold;
+}
+
+#name h1 {
+    font-size: 9rem;
+    margin: 0;
 }
 
 .i {
@@ -113,8 +132,6 @@ nav ul li a:hover {
 
 .red-text {
     color: rgb(177, 2, 2);
-    font-size: 4.5vw; /* Adjusted font size using vw units */
-    margin-left: 2.539vw; /* Adjusted margin using vw units */
     margin-bottom: 0;
 }
 
@@ -136,6 +153,7 @@ nav ul li a:hover {
     color: white;
     height: 1.953vw; /* Adjusted height using vw units */
     margin-top: 1.172vw; /* Adjusted margin using vw units */
+    font-size: 4rem;
 }
 
 a {
@@ -173,4 +191,58 @@ a:hover {
 }
 #white-text{
     color: rgba(243, 243, 255, 0.886);
+}
+#clubs {
+    display: flex;
+    justify-content: center; /* Aligns items horizontally */
+    align-items: center; /* Aligns items vertically */
+    margin-top: 2vw; /* Adjust margin as needed */
+}
+
+#clubs img {
+    margin: 0 2vw; /* Adjust spacing between images */
+}
+#main-icons a {
+    display: inline-block;
+    padding: 10px;
+}
+
+@media (max-width: 600px) {
+    nav ul li a {
+        color: #6E260E;
+        transition: background 0.3s;
+        font-size: 1.4rem; /* Adjusted font size using vw units (approximately 60px on a 2560px wide screen) */
+        padding-bottom: 1.5rem;;
+        font-weight: bold;
+    }
+
+    #name h2 {
+        padding-top: 1rem;
+        font-size: 2rem;
+        margin: 0;
+        color: #6E260E;
+        font-weight: bold;
+        margin-left: 1rem;
+    }
+    #name h1 {
+        font-size: 3rem;
+        margin: 0;
+    }
+    #main-icons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        margin-top: 3.25rem;
+        margin-left: -0.6rem;
+    }
+    #second-icon{
+        margin-left: -0.7rem;
+    }
+    #main-text{
+        font-size: 1.3rem;
+        width: 95%;
+    }
+    #left-side{
+    }
 }
