@@ -23,7 +23,8 @@ nav ul {
     font-family: 'Poppins', sans-serif;
     justify-content: center;
     align-items: start;
-    margin-top: 0%;
+    margin-bottom: -2.75rem;
+    margin-top: 2%;
 }
 
 .main-content{
@@ -57,15 +58,16 @@ nav ul {
     margin-top: -6vw;
 }
 
-#right-side #stuypulse{
-    width: 5rem;
-    height: 1rem;
-    border-radius: 100; 
-    margin-top: 2vw; 
-    margin-left: 2vw; 
-    margin-right: 2vw; 
-    box-shadow: 0px 0px 2vw 0px #000000;
+#right-side .stuypulse img {
+    width: 50vw;
+    max-width: 930px;
+    height: auto;
+    margin-left: 1.953vw;
+    margin-right: 2.539vw;
+    margin-bottom: 0;
+    box-shadow: 0px 0px 0.391vw 0px rgba(0, 0, 0, 0.4);
 }
+
 
 
 nav ul li a {
@@ -206,6 +208,7 @@ a:hover {
     padding: 10px;
 }
 
+
 @media (max-width: 600px) {
     nav ul li a {
         color: #6E260E;
@@ -216,7 +219,6 @@ a:hover {
     }
 
     #name h2 {
-        padding-top: 1rem;
         font-size: 2rem;
         margin: 0;
         color: #6E260E;
@@ -224,23 +226,25 @@ a:hover {
         margin-left: 1rem;
     }
     #name h1 {
-        font-size: 3rem;
+        font-size: 2.8rem;
         margin: 0;
-    }
-    #main-icons{
+        white-space: nowrap;
+    } 
+        
+    #main-icons a i {
         display: flex;
         justify-content: center;
         align-items: center;
         font-size: 2rem;
-        margin-top: 3.25rem;
-        margin-left: -0.6rem;
+        margin-top: -4rem;
     }
     #second-icon{
-        margin-left: -0.7rem;
+        color: #0762C8;
     }
     #main-text{
         font-size: 1.3rem;
         width: 95%;
+        margin-top: -1rem;
     }
     #right-side {
         display: block;
@@ -255,13 +259,8 @@ a:hover {
     .main-content {
         display: block;
     }
-    #right-side #stuypulse{
-        border-radius: 100; 
-        margin-top: 2vw; 
-        margin-left: 2vw; 
-        margin-right: 2vw; 
-        box-shadow: 0px 0px 2vw 0px #000000;
-        margin-bottom: 10;
+    #right-side .stuypulse img{
+        width: 95vw;
     }
     .footer-content {
         display: flex;
@@ -278,4 +277,3 @@ a:hover {
         display: none;
     }
 }
-
