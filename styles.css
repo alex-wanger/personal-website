@@ -58,16 +58,16 @@ nav ul {
     margin-top: -10rem;
 }
 
-#right-side #stuypulse{
-    width: 50vw; /* (930px / 2560px) * 100 */
-    max-width: 930px; /* Maximum width for larger screens */
-    height: 8vw;
-    border-radius: 6.25vw; /* (100px / 1600px) * 100 */
-    margin-left: 1.953vw; /* (50px / 2560px) * 100 */
-    margin-right: 2.539vw; /* (65px / 2560px) * 100 */
+#right-side .stuypulse img {
+    width: 50vw;
+    max-width: 930px;
+    height: auto;
+    margin-left: 1.953vw;
+    margin-right: 2.539vw;
     margin-bottom: 0;
-    box-shadow: 0px 0px 0.391vw 0px rgba(0, 0, 0, 0.4); /* (10px / 2560px) * 100 */
+    box-shadow: 0px 0px 0.391vw 0px rgba(0, 0, 0, 0.4);
 }
+
 
 
 nav ul li a {
@@ -257,13 +257,8 @@ a:hover {
     .main-content {
         display: block;
     }
-    #right-side #stuypulse{
-        border-radius: 100; 
-        margin-top: 2vw; 
-        margin-left: 2vw; 
-        margin-right: 2vw; 
-        box-shadow: 0px 0px 2vw 0px #000000;
-        margin-bottom: 10;
+    .stuypulse{
+        width: 95vw; height:auto;margin-bottom: 2.5rem; border-radius: 100; margin-top: 0.5vw; margin-left: 2vw; margin-right: 2vw; box-shadow: 0px 0px 2vw 0px #000000;
     }
     .footer-content {
         display: flex;
