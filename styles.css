@@ -259,7 +259,9 @@ a:hover {
         display: block;
     }
     #right-side .stuypulse img{
+        height: auto;
         width: 95vw;
+        margin-bottom: 2rem;
     }
     .footer-content {
         display: flex;
@@ -267,7 +269,7 @@ a:hover {
         align-items: center;
         background-color: #6E260E;
         color: white;
-        height: auto; /* Adjusted height using vw units */
+        height: auto; /* Adjusted height using vw unitsc */
         width: 100%;
         font-size: 1rem;
         text-align: center;
