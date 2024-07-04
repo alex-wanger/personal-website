@@ -271,10 +271,9 @@ a:hover {
         color: white;
         height: auto; /* Adjusted height using vw units */
         width: 100%;
-        margin-top: -5rem; /* Adjusted margin using vw units */
+        margin-top: -1rem; /* Adjusted margin using vw units */
         font-size: 1rem;
         text-align: center;
-        margin
     }
     .clubs{
         display: none;
