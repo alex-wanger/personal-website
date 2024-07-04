@@ -54,7 +54,7 @@ nav ul {
     align-items: center;
     padding: 2vw;
     flex-direction: column;
-    margin-top: -6vw;
+    margin-top: -20rem;
 }
 
 #right-side #stuypulse{
@@ -92,34 +92,34 @@ body {
 }
 
 #logo {
-    font-size: 2.344vw; /* Adjusted font size using vw units (approximately 60px on a 2560px wide screen) */
-    margin-top: 1vw; /* Adjusted margin using vw units */
     display: flex;
     justify-content: left;
     align-items: center;
-    margin-left: 3vw;
-    margin-bottom: -6vw; /* Adjusted margin using vw units */
 }
 
 #logo #main-icons {
     margin-left: 1vw; /* Adjusted margin for spacing between icons and text */
+    font-size: 3rem;
+    margin-top: 10rem;
 }
 
 #name {
     display: flex;
     flex-direction: column; /* Stack the elements vertically */
+    margin-left: 3vw;
+    margin-bottom: -6vw; /* Adjusted margin using vw units */
+    font-size: 2.344vw; /* Adjusted font size using vw units (approximately 60px on a 2560px wide screen) */
 }
 
 #name h2 {
-    font-size: 10rem;
+    font-size: 5rem;
     margin: 0;
     color: #6E260E;
     font-weight: bold;
 }
 
 #name h1 {
-    font-size: 9rem;
-    margin: 0;
+    font-size: 6rem;
 }
 
 .i {
@@ -136,13 +136,12 @@ nav ul li a:hover {
 }
 
 #main-text {
-    margin-top: 4.688vw; /* Adjusted margin using vw units */
-    font-size: 2.2vw; /* Adjusted font size using vw units */
+    font-size: 2.3rem; /* Adjusted font size using vw units */
     margin-left: 2.539vw; /* Adjusted margin using vw units */
-    width: 33vw; /* Adjusted width using vw units */
+    width: 34rem;
     text-align: center;
-    margin-top: 4vw; /* Adjusted margin using vw units */
     color: rgb(177, 2, 2);
+    border: #000 solid 3px;
 }
 
 .footer-content {
@@ -153,7 +152,7 @@ nav ul li a:hover {
     color: white;
     height: 1.953vw; /* Adjusted height using vw units */
     margin-top: 1.172vw; /* Adjusted margin using vw units */
-    font-size: 4rem;
+    font-size: 1rem;
 }
 
 a {
