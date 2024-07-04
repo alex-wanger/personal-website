@@ -208,7 +208,7 @@ a:hover {
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 600px) { /* Media query for smaller screens */
     nav ul li a {
         color: #6E260E;
         transition: background 0.3s;
