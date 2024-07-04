@@ -257,8 +257,8 @@ a:hover {
     .main-content {
         display: block;
     }
-    #right-side .stuypulse{
-        width: 95vw; height:auto;margin-bottom: 2.5rem; border-radius: 100; margin-top: 0.5vw; margin-left: 2vw; margin-right: 2vw; box-shadow: 0px 0px 2vw 0px #000000;
+    #right-side .stuypulse img{
+        width: 95vw;
     }
     .footer-content {
         display: flex;
