@@ -218,7 +218,6 @@ a:hover {
     }
 
     #name h2 {
-        padding-top: 1rem;
         font-size: 2rem;
         margin: 0;
         color: #6E260E;
@@ -226,23 +225,25 @@ a:hover {
         margin-left: 1rem;
     }
     #name h1 {
-        font-size: 3rem;
+        font-size: 2.8rem;
         margin: 0;
-    }
-    #main-icons{
+        white-space: nowrap;
+    } 
+        
+    #main-icons a i {
         display: flex;
         justify-content: center;
         align-items: center;
         font-size: 2rem;
-        margin-top: 3.25rem;
-        margin-left: -0.6rem;
+        margin-top: -4rem;
     }
     #second-icon{
-        margin-left: -0.7rem;
+        color: #0762C8;
     }
     #main-text{
         font-size: 1.3rem;
         width: 95%;
+        margin-top: -1rem;
     }
     #right-side {
         display: block;
