@@ -246,7 +246,6 @@ a:hover {
         display: block;
         width: 100%;
         margin-top: 2rem; /* Adjust this value as needed */
-        border: red 1px solid;
         display: flex;
         flex-direction: column;
     }
@@ -276,6 +275,9 @@ a:hover {
         margin-top: 1.172vw; /* Adjusted margin using vw units */
         font-size: 1rem;
         text-align: center;
+    }
+    .clubs{
+        display: none;
     }
 }
 
