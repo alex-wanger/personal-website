@@ -23,6 +23,7 @@ nav ul {
     font-family: 'Poppins', sans-serif;
     justify-content: center;
     align-items: start;
+    margin-bottom: -2.5rem;
     margin-top: 0%;
 }
 
@@ -53,8 +54,8 @@ nav ul {
     justify-content: center;
     align-items: center;
     padding: 2vw;
-    flex-direction: column;
-    margin-top: -20rem;
+    flex-direction: column; 
+    margin-top: -12.5rem;
 }
 
 #right-side #stuypulse{
@@ -206,6 +207,7 @@ a:hover {
     padding: 10px;
 }
 
+
 @media (max-width: 600px) {
     nav ul li a {
         color: #6E260E;
@@ -242,6 +244,5 @@ a:hover {
         font-size: 1.3rem;
         width: 95%;
     }
-    #left-side{
-    }
+    
 }
