@@ -256,13 +256,12 @@ a:hover {
         display: block;
     }
     #right-side #stuypulse{
-        width: 10px;
-        height: 10px;
         border-radius: 100; 
         margin-top: 2vw; 
         margin-left: 2vw; 
         margin-right: 2vw; 
         box-shadow: 0px 0px 2vw 0px #000000;
+        margin-bottom: 10;
     }
     .footer-content {
         display: flex;
