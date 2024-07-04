@@ -173,12 +173,12 @@ a:hover {
 #footer {
     background-color: #6E260E;
     color: white;
-    height: 3.125vw; /* Adjusted height using vw units */
+    height: 3.125vw; 
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: auto; /* Push footer to the bottom */
-    padding-bottom: 0.586vw; /* Adjusted padding using vw units */
+    margin-top: auto; 
+    padding-bottom: 0.586vw; 
 }
 #href-coloring{
     color: peachpuff
@@ -194,13 +194,13 @@ a:hover {
 }
 #clubs {
     display: flex;
-    justify-content: center; /* Aligns items horizontally */
-    align-items: center; /* Aligns items vertically */
-    margin-top: 2vw; /* Adjust margin as needed */
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 2vw; 
 }
 
 #clubs img {
-    margin: 0 2vw; /* Adjust spacing between images */
+    margin: 0 2vw;
 }
 #main-icons a {
     display: inline-block;
